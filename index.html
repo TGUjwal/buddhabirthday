@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddha's Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="front">
+                <h1>Happy Buddha's Birthday!</h1>
+                <img src="https://img.freepik.com/premium-photo/lord-buddha-statue-gautam-jayanti-ai-generated-art_853163-201.jpg?w=740" alt="Buddha Image" class="buddha-img">
+                <p>May peace and serenity fill your life on this auspicious day.</p>
+                <button onclick="launchFireworks()">Celebrate</button>
+                <button onclick="foldCard()">Open</button>
+            </div>
+            <div class="back">
+                <h1>Wishing You Joy!</h1>
+                <p>May the teachings of Buddha inspire you to find happiness and peace in every moment.</p>
+                <button onclick="foldCard()">Close</button>
+            </div>
+        </div>
+        <div id="firework-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
